@@ -23,3 +23,9 @@
         transform: rotate(360deg);
     }
 }
+
+.ss{
+    background-image: url('../assets/banner-web.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
