@@ -29,3 +29,13 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+.loader{
+    top: 45%;
+    left: 45%;
+}
+@media screen and (max-width: 800px) {
+    .ss {
+      width: 100vw;
+      height: 100vh; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
