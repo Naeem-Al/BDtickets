@@ -1201,18 +1201,6 @@ video {
     left: 45%;
   }
 
-  .\32xl\:top-\[58\%\] {
-    top: 58%;
-  }
-
-  .\32xl\:top-\[60\%\] {
-    top: 60%;
-  }
-
-  .\32xl\:top-\[65\%\] {
-    top: 65%;
-  }
-
   .\32xl\:top-\[62\%\] {
     top: 62%;
   }
@@ -1238,10 +1226,6 @@ video {
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   }
 
-  .\32xl\:bg-opacity-25 {
-    --tw-bg-opacity: 0.25;
-  }
-
   .\32xl\:bg-opacity-30 {
     --tw-bg-opacity: 0.3;
   }
@@ -1254,6 +1238,11 @@ video {
     --tw-bg-opacity: 0.8;
   }
 
+  .\32xl\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
   .\32xl\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -1262,10 +1251,5 @@ video {
   .\32xl\:py-2 {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-  }
-
-  .\32xl\:px-10 {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
   }
 }
