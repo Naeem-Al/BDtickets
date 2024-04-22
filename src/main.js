@@ -27,3 +27,26 @@ function myFunction() {
       x.style.display = "none";
     }
   }
+
+  // arrow button work
+
+  document.getElementById('swapButton').addEventListener('click', function() {
+    var inputField1 = document.getElementById('inputField1');
+    var inputField2 = document.getElementById('inputField2');
+    
+    var temp = inputField1.value;
+    inputField1.value = inputField2.value;
+    inputField2.value = temp;
+  });
+  
+  // ARROW DATE CHANGE
+
+  document.getElementById('datebutton').addEventListener('click', function() {
+    var date1 = document.getElementById('date1');
+    var date2 = document.getElementById('date2');
+    
+    var temp = date1.value;
+    date1.value = date2.value;
+    date2.value = temp;
+  });
+  
