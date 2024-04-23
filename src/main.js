@@ -1,14 +1,19 @@
 const showLoaderButton = document.getElementById('showLoaderButton');
 const loader =document.getElementById('loader');
-const hide= document.getElementById('hide')
+const hide= document.getElementById('hide');
+const aftershow=document.getElementById('aftershow')
 
 showLoaderButton.addEventListener('click',function(){
     loader.style.display ='block';
     hide.style.display='none';
+    aftershow.style.display='none';
 
     setTimeout(function(){
         loader.style.display='none';
         hide.style.display='block';
+        aftershow.style.display='block';
+
+
 
 
     },1000);
